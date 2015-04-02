@@ -1,0 +1,5 @@
+D:\Projects\MathMethods\Fib_Library\bin\Debug\Fib_Library.dll
+D:\Projects\MathMethods\Fib_Library\bin\Debug\Fib_Library.pdb
+D:\Projects\MathMethods\Fib_Library\obj\Debug\Fib_Library.csprojResolveAssemblyReference.cache
+D:\Projects\MathMethods\Fib_Library\obj\Debug\Fib_Library.dll
+D:\Projects\MathMethods\Fib_Library\obj\Debug\Fib_Library.pdb

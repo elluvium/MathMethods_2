@@ -1,0 +1,10 @@
+D:\Projects\MathMethods\Fib_meth_console\bin\Debug\Fib_meth_console.exe.config
+D:\Projects\MathMethods\Fib_meth_console\bin\Debug\Fib_meth_console.exe
+D:\Projects\MathMethods\Fib_meth_console\bin\Debug\Fib_meth_console.pdb
+D:\Projects\MathMethods\Fib_meth_console\bin\Debug\Fib_Library.dll
+D:\Projects\MathMethods\Fib_meth_console\bin\Debug\Fib_Library.pdb
+D:\Projects\MathMethods\Fib_meth_console\obj\Debug\Fib_meth_console.csprojResolveAssemblyReference.cache
+D:\Projects\MathMethods\Fib_meth_console\obj\Debug\Fib_meth_console.exe
+D:\Projects\MathMethods\Fib_meth_console\obj\Debug\Fib_meth_console.pdb
+d:\Projects\MathMethods\Fib_meth_console\bin\Debug\CubicApproxLibrary.dll
+d:\Projects\MathMethods\Fib_meth_console\bin\Debug\CubicApproxLibrary.pdb

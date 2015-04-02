@@ -1,0 +1,5 @@
+D:\Projects\MathMethods\CubicApproxLibrary\obj\Debug\CubicApproxLibrary.csprojResolveAssemblyReference.cache
+d:\Projects\MathMethods\CubicApproxLibrary\bin\Debug\CubicApproxLibrary.dll
+d:\Projects\MathMethods\CubicApproxLibrary\bin\Debug\CubicApproxLibrary.pdb
+d:\Projects\MathMethods\CubicApproxLibrary\obj\Debug\CubicApproxLibrary.dll
+d:\Projects\MathMethods\CubicApproxLibrary\obj\Debug\CubicApproxLibrary.pdb

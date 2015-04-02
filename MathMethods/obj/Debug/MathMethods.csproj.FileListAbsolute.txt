@@ -1,0 +1,17 @@
+D:\Projects\MathMethods\MathMethods\bin\Debug\MathMethods.exe.config
+d:\Projects\MathMethods\MathMethods\bin\Debug\MathMethods.exe
+d:\Projects\MathMethods\MathMethods\bin\Debug\MathMethods.pdb
+d:\Projects\MathMethods\MathMethods\obj\Debug\MathMethods.csprojResolveAssemblyReference.cache
+d:\Projects\MathMethods\MathMethods\obj\Debug\MainWindow.baml
+d:\Projects\MathMethods\MathMethods\obj\Debug\MainWindow.g.cs
+d:\Projects\MathMethods\MathMethods\obj\Debug\App.g.cs
+d:\Projects\MathMethods\MathMethods\obj\Debug\MathMethods_MarkupCompile.cache
+d:\Projects\MathMethods\MathMethods\obj\Debug\MathMethods.g.resources
+d:\Projects\MathMethods\MathMethods\obj\Debug\MathMethods.Properties.Resources.resources
+d:\Projects\MathMethods\MathMethods\obj\Debug\MathMethods.csproj.GenerateResource.Cache
+d:\Projects\MathMethods\MathMethods\obj\Debug\MathMethods.exe
+d:\Projects\MathMethods\MathMethods\obj\Debug\MathMethods.pdb
+d:\Projects\MathMethods\MathMethods\bin\Debug\Fib_Library.dll
+d:\Projects\MathMethods\MathMethods\bin\Debug\Fib_Library.pdb
+D:\Projects\MathMethods\MathMethods\bin\Debug\CubicApproxLibrary.dll
+D:\Projects\MathMethods\MathMethods\bin\Debug\CubicApproxLibrary.pdb
