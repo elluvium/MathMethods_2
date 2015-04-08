@@ -286,17 +286,19 @@ namespace MathMethods
 
         private void btnCubicApp_Click(object sender, RoutedEventArgs e)
         {
-            double answer_x_Cubic; 
+            double answer_x_Cubic;
+            int iterations;
 
             if (cmbBox_Cubic.SelectedValue == "Kostenko")
             {
-                answer_x_Cubic = CubicApproximation.Solve(0.001, 1.5, 2, x => Math.Pow(2 * x, 2) + 3 * (Math.Pow(5 - x, (4 / 3))));                
+                answer_x_Cubic = CubicApproximation.Solve(0.001, 1.5, 2, out iterations, x => Math.Pow(2 * x, 2) + 3 * (Math.Pow(5 - x, (4 / 3))));                
                 lblEPS_Cubic.Content = 0.001 + ";";
                 lblA_Cubic.Content = 1.5 + ";";
                 lblB_Cubic.Content = 2 + ";";
                 lblFunc_Cubic.Content = "Math.Pow(2* x, 2) + 3 * (Math.Pow(5 - x, (4 / 3)))";
                 lblX_Cubic.Content = answer_x_Cubic;
                 lblY_Cubic.Content = Math.Pow(2 * answer_x_Cubic, 2) + 3 * (Math.Pow(5 - answer_x_Cubic, (4 / 3)));
+                iter_lbl.Content = iterations;
 
                 functionTextBox.Text = "Math.Pow(2*x, 2) + 3 * (Math.Pow(5 - x, (4 / 3)))";
                 XFromTextBox.Text = Convert.ToString(-5.1);
@@ -309,13 +311,14 @@ namespace MathMethods
 
             else
             {
-                answer_x_Cubic = 0.49+(CubicApproximation.Solve(0.001, 3, 3.5, x => 20 * x - 5 * Math.Pow(x, 2) + 8 * Math.Pow(x, 5 / 4)));
+                answer_x_Cubic = 0.49 + (CubicApproximation.Solve(0.001, 3, 3.5, out iterations, x => 20 * x - 5 * Math.Pow(x, 2) + 8 * Math.Pow(x, 5 / 4)));
                 lblEPS_Cubic.Content = 0.001 + ";";
                 lblA_Cubic.Content = 3 + ";";
                 lblB_Cubic.Content = 3.5 + ";";
                 lblFunc_Cubic.Content = "20 * x - 5 * Math.Pow(x, 2) + 8 * Math.Pow(x, 5 / 4)";
                 lblX_Cubic.Content = answer_x_Cubic;
                 lblY_Cubic.Content = (20 * answer_x_Cubic - 5 * Math.Pow(answer_x_Cubic, 2) + 8 * Math.Pow(answer_x_Cubic, 5 / 4));
+                iter_lbl.Content = iterations;
 
                 functionTextBox.Text = "20 * x - 5 * Math.Pow(x, 2) + 8 * Math.Pow(x, 5 / 4)";
                 XFromTextBox.Text = Convert.ToString(-6.5);

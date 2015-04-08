@@ -55,8 +55,10 @@
                     <Label x:Name="lblX_Cubic" Content="" HorizontalAlignment="Left" Margin="44,184,0,0" VerticalAlignment="Top" />
                     <Label Content="y =" HorizontalAlignment="Left" Margin="10,213,0,0" VerticalAlignment="Top" Height="26" Width="38"/>
                     <Label x:Name="lblY_Cubic" Content="" HorizontalAlignment="Left" Margin="44,213,0,0" VerticalAlignment="Top" />
-                    <GroupBox Header="Answer" HorizontalAlignment="Left" Margin="5,172,0,0" VerticalAlignment="Top" Height="83" Width="323"/>
+                    <GroupBox Header="Answer" HorizontalAlignment="Left" Margin="5,174,0,0" VerticalAlignment="Top" Height="97" Width="323"/>
                     <GroupBox Header="Initial data" HorizontalAlignment="Left" VerticalAlignment="Top" Height="174" Width="323" Margin="5,0,0,0"/>
+                    <Label Content="Iterations =" HorizontalAlignment="Left" Margin="10,239,0,0" VerticalAlignment="Top"/>
+                    <Label x:Name="iter_lbl" Content="" HorizontalAlignment="Left" Margin="81,239,0,0" VerticalAlignment="Top"/>
                 </Grid>
             </TabItem>
 

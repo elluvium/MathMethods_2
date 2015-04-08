@@ -9,7 +9,7 @@ namespace CubicApproxLibrary
     public class CubicApproximation
     {
 
-        public static double Solve(double eps, double leftBorder, double rightBorder, Func<double, double> function)
+        public static double Solve(double eps, double leftBorder, double rightBorder, out int iter, Func<double, double> function)
         {
             double[] x = new double[3];
             x[0] = leftBorder + eps; //начальная точка
@@ -25,6 +25,7 @@ namespace CubicApproxLibrary
             double e1, e2;
             double x_stat = 0;
             int k = 0;
+            iter = 0;
 
             dx = (Math.Abs(leftBorder - rightBorder)) / rightBorder; //шаг
             e1 = 10000 * eps; //параметр сходимости
@@ -37,6 +38,7 @@ namespace CubicApproxLibrary
                     x_temp[k + 1] = x_temp[k] + Math.Pow(2, k) * dx;
                     x_temp.Add(0);
                     k++;
+                    iter++;
                 }
 
                 while ((((function(x_temp[k - 1] + EPS) - function(x_temp[k - 1])) / EPS)) * (((function(x_temp[k] + EPS) - function(x_temp[k])) / EPS)) <= 0);
@@ -47,12 +49,17 @@ namespace CubicApproxLibrary
                     x_temp[k + 1] = x_temp[k] - Math.Pow(2, k) * dx;
                     x_temp.Add(0);
                     k++;
+                    iter++;
                 }
                 while ((((function(x_temp[k - 1] + EPS) - function(x_temp[k - 1])) / EPS)) * (((function(x_temp[k] + EPS) - function(x_temp[k])) / EPS)) <= 0);
 
             //шаг2
             for (int i = 0; i <= x_temp[k]; i++)
+            {
                 function(x_temp[k]);
+                iter++;
+            }
+                
 
             x[x.Length - 2] = x_temp[k - 1];
             x[x.Length - 1] = x_temp[k];
@@ -95,6 +102,7 @@ namespace CubicApproxLibrary
                 while (function(x_stat) <= function(x[1]))
                 {
                     x_stat = x_stat + 0.5 * (x_stat - x[1]);
+                    iter++;
                 }
 
             //шаг5
