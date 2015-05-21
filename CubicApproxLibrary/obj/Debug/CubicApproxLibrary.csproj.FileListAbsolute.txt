@@ -3,3 +3,8 @@ d:\Projects\MathMethods\CubicApproxLibrary\bin\Debug\CubicApproxLibrary.dll
 d:\Projects\MathMethods\CubicApproxLibrary\bin\Debug\CubicApproxLibrary.pdb
 d:\Projects\MathMethods\CubicApproxLibrary\obj\Debug\CubicApproxLibrary.dll
 d:\Projects\MathMethods\CubicApproxLibrary\obj\Debug\CubicApproxLibrary.pdb
+d:\Dev\Projects\MathMethods\CubicApproxLibrary\bin\Debug\CubicApproxLibrary.dll
+d:\Dev\Projects\MathMethods\CubicApproxLibrary\bin\Debug\CubicApproxLibrary.pdb
+d:\Dev\Projects\MathMethods\CubicApproxLibrary\obj\Debug\CubicApproxLibrary.csprojResolveAssemblyReference.cache
+d:\Dev\Projects\MathMethods\CubicApproxLibrary\obj\Debug\CubicApproxLibrary.dll
+d:\Dev\Projects\MathMethods\CubicApproxLibrary\obj\Debug\CubicApproxLibrary.pdb

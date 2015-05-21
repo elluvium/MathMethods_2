@@ -1,0 +1,9 @@
+D:\Dev\Projects\MathMethods\HookeJeevesLibrary\bin\Debug\HookeJeevesLibrary.dll
+D:\Dev\Projects\MathMethods\HookeJeevesLibrary\bin\Debug\HookeJeevesLibrary.pdb
+D:\Dev\Projects\MathMethods\HookeJeevesLibrary\bin\Debug\CubicApproxLibrary.dll
+D:\Dev\Projects\MathMethods\HookeJeevesLibrary\bin\Debug\Fib_Library.dll
+D:\Dev\Projects\MathMethods\HookeJeevesLibrary\bin\Debug\CubicApproxLibrary.pdb
+D:\Dev\Projects\MathMethods\HookeJeevesLibrary\bin\Debug\Fib_Library.pdb
+D:\Dev\Projects\MathMethods\HookeJeevesLibrary\obj\Debug\HookeJeevesLibrary.csprojResolveAssemblyReference.cache
+D:\Dev\Projects\MathMethods\HookeJeevesLibrary\obj\Debug\HookeJeevesLibrary.dll
+D:\Dev\Projects\MathMethods\HookeJeevesLibrary\obj\Debug\HookeJeevesLibrary.pdb

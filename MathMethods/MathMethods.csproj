@@ -103,6 +103,10 @@
       <Project>{d5a2ae92-e05e-408c-9118-fbb42723b0ac}</Project>
       <Name>Fib_Library</Name>
     </ProjectReference>
+    <ProjectReference Include="..\HookeJeevesLibrary\HookeJeevesLibrary.csproj">
+      <Project>{d67a2f46-9f96-4843-8d80-4cdfaff86e6b}</Project>
+      <Name>HookeJeevesLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

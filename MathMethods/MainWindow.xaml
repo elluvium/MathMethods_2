@@ -68,6 +68,27 @@
                         <ColumnDefinition Width="288*"/>
                         <ColumnDefinition Width="395*"/>
                     </Grid.ColumnDefinitions>
+                    <Button Content="Solve" HorizontalAlignment="Left" Margin="10,253,0,0" VerticalAlignment="Top" Width="253" Click="Button_Click" Height="42"/>
+                    <TextBox x:Name="eps_txt_box" HorizontalAlignment="Left" Height="23" Margin="93,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="0,0001"/>
+                    <TextBox x:Name="delta_txt_box" HorizontalAlignment="Left" Height="23" Margin="197,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="66" Text="0,001" Visibility="Hidden"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="10,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="1"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="143,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="1"/>
+                    <TextBox x:Name="txt_box2" HorizontalAlignment="Left" Height="23" Margin="147,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116" Text="0"/>
+                    <TextBox x:Name="txt_box3" HorizontalAlignment="Left" Height="23" Margin="197,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="66" Text="0" Visibility="Hidden"/>
+                    <TextBox x:Name="txt_box1" HorizontalAlignment="Left" Height="23" Margin="10,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="0"/>
+                    <Label Content="Точность" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Координатные направления" HorizontalAlignment="Left" Margin="63,109,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Начальное приближение" HorizontalAlignment="Left" Margin="63,168,0,0" VerticalAlignment="Top"/>
+                    <Label x:Name="label_answ" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="101,29,0,0" VerticalAlignment="Top"/>
+                    <Label x:Name="label_func_value" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="101,60,0,0" VerticalAlignment="Top"/>
+                    <Label x:Name="num_iter" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="101,95,0,0" VerticalAlignment="Top"/>
+                    <ComboBox x:Name="cmbbox_hooke" HorizontalAlignment="Left" Margin="93,33,0,0" VerticalAlignment="Top" Width="120" Loaded="cmbbox_hooke_Loaded"/>
+                    <Label Content="Функция" HorizontalAlignment="Left" Margin="10,29,0,0" VerticalAlignment="Top"/>
+                    <GroupBox Header="Входные данные" HorizontalAlignment="Left" VerticalAlignment="Top" Height="306" Width="291" Grid.ColumnSpan="2"/>
+                    <Label Content="Точка min:" Grid.Column="1" HorizontalAlignment="Left" Margin="29,29,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Функция:" Grid.Column="1" HorizontalAlignment="Left" Margin="29,60,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Итераций:" Grid.Column="1" HorizontalAlignment="Left" Margin="29,95,0,0" VerticalAlignment="Top"/>
+                    <GroupBox Grid.Column="1" Header="Выходные данные" HorizontalAlignment="Left" Margin="3,0,0,0" VerticalAlignment="Top" Height="306" Width="382"/>
                 </Grid>
             </TabItem>
 
